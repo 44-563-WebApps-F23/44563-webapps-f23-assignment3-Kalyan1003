@@ -55,5 +55,15 @@
         <td>3-4 hours</td>
     </tr>
 </table>
+<hr>
+<h2>Code</h2>
+<blockquote>drag drop files into standard html file input
+</blockquote>
+<pre>
+    <form method="post" action="upload.php" enctype="multipart/form-data">
+        <input name='uploads[]' type="file" multiple>
+        <input type="submit" value="Send">
+      </form>
+</pre>
 </body>
 </html>
